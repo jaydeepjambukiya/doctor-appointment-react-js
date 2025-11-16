@@ -8,7 +8,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-light py-3">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-4" to="/">
-            MyWebsite
+            Doctor Appointment
           </NavLink>
 
           <button
@@ -44,7 +44,7 @@ const Header = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" to="/banner">Banner</NavLink>
+                <NavLink className="nav-link" to="/appointment">Appointment Booking</NavLink>
               </li>
 
             </ul>
